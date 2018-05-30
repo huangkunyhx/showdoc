@@ -19,4 +19,6 @@ RUN  \
 
 RUN chmod -R 777 /var/www/html/
 
+VOLUME ["/var/www/html/"]
+
 CMD ["apache2-foreground"]
